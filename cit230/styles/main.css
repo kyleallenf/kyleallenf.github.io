@@ -8,16 +8,16 @@ body {
     font-size: 16px; 
     line-height: 32px;
     font-family: sans-serif;
-    color:  # ;
+    color:  black;
 }
 
 h1 {
-    font-size: x.xrem  (rem is a unit of measure) ;
+    font-size: 30px ;
     color: white;
 }
 
 h2 {
-    font-size: /* x.xrem */;
+    font-size: 30px;
     text-align: center;
     border-bottom: 1px solid #bbb;
 }
@@ -25,7 +25,7 @@ h2 {
 header, main, footer {
     margin: 1.25rem auto;
     padding: .5rem;
-    max-width: /* xxxpx (px = pixel is a unit of measure)  */;
+    max-width: 1200px;
 }
 
 header, footer, footer a {
@@ -41,5 +41,5 @@ header img {
 }
 
 footer {
-    font-size: /* smaller */;
+    font-size: 15px;
 }
