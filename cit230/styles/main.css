@@ -38,6 +38,8 @@ header img {
     width: 167px;
     height: auto;
     float: right;
+    border-radius: 15%; 
+    
 }
 
 footer {
