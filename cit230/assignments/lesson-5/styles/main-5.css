@@ -1,0 +1,125 @@
+/* Delete these CSS comments after reading. */
+
+/* This main css file contains the default rules and is geared toward the small/phone view */
+
+* {
+    box-sizing: border-box;
+    
+}
+
+/* This wildcard applies to all elements ensuring a box layout model */
+
+body {
+    font-size: 16px;
+    background-color: #ADBED2;
+    font-family: 'Montserrat', sans-serif;
+}
+
+header,
+nav,
+main,
+footer {
+    /* the comma between the selectors means apply the following CSS declarations to all of the listed elements */
+    max-width: 100%;
+    /* Declare the maximum width and other main element rules to limit the stretch on larger/wider views */
+}
+
+header {
+    background-color: #12406A;
+    color: white;    
+}
+
+header h1 {
+    text-align: center;
+    margin: 0;
+    padding-top: .5em;
+
+    
+}
+
+header img {}
+
+header .subheading {
+    text-align: center;
+    font-size: .8em;
+    
+}
+
+nav {
+    background-color: #FFB471;
+
+    
+}
+
+nav button {
+}
+
+nav li{
+
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    text-align: center;
+    padding-bottom: .3em;
+    
+}
+
+nav ul li {
+    display: inline;
+    font-size: .85em;
+     
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: .3em;
+    
+    
+}
+
+nav ul li.active a {}
+
+nav ul li a:hover {
+    background-color: #12406A;
+}
+
+main {
+    padding-left: 2em;
+}
+
+main h2 {
+    text-align: center;
+    font-size: 2em;
+    margin: .5em;
+    
+}
+
+.articleimg{
+    width: 15em;
+}
+
+main figure {
+    margin: 0 0 .2rem 2%;
+    width: 96%;
+}
+
+main h3{
+    text-align: center;
+}
+
+.forecast { display:none;}
+
+footer {
+    background-color: #12406A;
+    color: white;
+    text-align: center;
+}
+footer a{
+    color: white;
+}
+.contact{
+
+}
