@@ -12,12 +12,18 @@
     /* hamburger button does not need to be shown in the medium on up views */
     .forecast {
         display: block;
-        margin: 1em;
+        margin: 0;
         background-color:#EB8F90 ;        
         text-align: center;
     }
+    main table{
+        
+    }
     th{
         padding: .3em
+    }
+    .articleimg{
+        width: 20em;
     }
     /* show the 10-day forecast with the medium view and up */
 }
