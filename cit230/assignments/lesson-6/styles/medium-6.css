@@ -9,6 +9,9 @@
     nav button {
         display: none;
     }
+    nav ul li{
+        display: inline-block;
+    }
     /* hamburger button does not need to be shown in the medium on up views */
     .forecast {
         display: block;

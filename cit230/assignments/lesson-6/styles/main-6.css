@@ -52,6 +52,7 @@ nav {
 }
 
 nav button {
+    
 }
 
 nav li{
@@ -71,12 +72,11 @@ nav ul.hide{
 }
 
 nav ul li {
-    display: inline;
+    display: none;
     font-size: .85em;
      
 }
 nav ul li a {
-    color: white;
     text-decoration: none;
     padding: .3em;
     
