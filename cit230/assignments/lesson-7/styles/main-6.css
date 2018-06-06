@@ -39,7 +39,7 @@ header h1 {
 
 header img {}
 
-header .subheading {`
+header .subheading {
     text-align: center;
     font-size: .8em;
     
@@ -52,12 +52,7 @@ nav {
 }
 
 nav button {
-    float: right;
-    background-color: transparent;
-    color: black;
-    border: none;
-    font-size: 1.6rem;
-    
+    align-content: center;
     
 }
 

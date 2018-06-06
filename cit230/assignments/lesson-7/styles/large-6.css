@@ -1,0 +1,29 @@
+@media only screen and (min-width: 1024px) {
+
+    body {
+        font-size: 1.3em;
+
+    }
+    nav {
+        background-color: #FFB471;
+        padding: .5em;
+        font-size: 1.2em;
+        
+    }
+    nav ul {
+    }
+
+    nav ul li {}
+    nav ul li a {
+        text-align: center;
+        margin: 3em;
+    }
+
+    nav ul li.active a {
+        
+    }
+
+    nav ul li a:hover {
+       
+    }
+}
