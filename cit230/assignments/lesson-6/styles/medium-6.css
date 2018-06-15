@@ -12,10 +12,14 @@
     nav button {
         display: none;
     }
-    nav ul li {
+    nav ul.hide{
+        display: block;
+    }
+    
+    nav ul li{
         display: inline-block;
     }
-    /* hamburger button does not need to be shown in the medium on up views */
+    
     .forecast {
         display: block;
         margin: 0;

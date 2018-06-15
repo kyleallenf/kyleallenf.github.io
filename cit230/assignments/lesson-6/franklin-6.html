@@ -19,10 +19,10 @@
     </header>
 
     <nav>
-        <button>
+        <button onclick="toggleMenu()">
            &#9776;
        </button>
-        <ul>
+        <ul id="navMenu" class="hide">
             <li><a href="#">Home</a></li>
             <li class="active"><a href="#">Franklin</a></li>
             <li><a href="#">Greenville</a></li>
@@ -43,15 +43,15 @@
                 <p>Low:</p>
             </div>
             <div class="current">
-               <p>Sunny</p>
+                <p>Sunny</p>
             </div>
             <div class="conditions">
                 <p>Precipitation:</p>
                 <p>Wind Speed:</p>
             </div>
             <picture>
-                    <img class="articleimg" src="/cit230/assignments/lesson-5/images/sunnysky.jpg" alt="sunnyimg">
-                </picture>
+                <img class="articleimg" src="/cit230/assignments/lesson-5/images/sunnysky.jpg" alt="sunnyimg">
+            </picture>
         </section>
 
         <section class="forecast">
@@ -104,7 +104,10 @@
         <section class="footer-bar">&copy;2018 | All Rights Reserved | Sunny Dayz | <span id="currentdate">Current Date Placeholder</span>
         </section>
         <p>&#9679; <a href="/index.html">CIT 230 | Assignments Page</a> &#9679;</p>
+
     </footer>
+    <script src="script/getdate.js"></script>
+    <script src="script/hamberger.js"></script>
 
 </body>
 
