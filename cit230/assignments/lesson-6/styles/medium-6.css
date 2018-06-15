@@ -33,5 +33,9 @@
     .articleimg {
         width: 20em;
     }
+    .skyimg{
+    width: 23em;
+}
+
     /* show the 10-day forecast with the medium view and up */
 }

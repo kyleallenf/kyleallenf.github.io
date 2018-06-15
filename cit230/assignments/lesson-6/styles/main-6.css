@@ -112,6 +112,10 @@ main h2 {
     width: 15em;
 }
 
+.skyimg{
+    width: 18em;
+}
+
 main figure {
     margin: 0 0 .2rem 2%;
     width: 96%;
