@@ -1,4 +1,84 @@
+body{
+    background-color: #ADBED2
+}
+header,
+nav,
+main,
+footer {
+    /* the comma between the selectors means apply the following CSS declarations to all of the listed elements */
+    max-width: 100%;
+    /* Declare the maximum width and other main element rules to limit the stretch on larger/wider views */
+}
+
+header {
+    background-color: #12406A;
+    color: white;    
+}
+
+header h1 {
+    text-align: center;
+    margin: 0;
+    padding-top: .5em;
+}
+header h3{
+    text-align: center;
+}
+nav {
+}
+nav button {
+    float: right;
+    background-color: transparent;
+    color: black;
+    border: none;
+    font-size: 1.6rem;
+  
+}
+
+nav li{
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    text-align: center;
+    padding-bottom: .3em;
+    
+}
+nav ul.hide{
+    display: none;
+}
+
+nav ul li {
+    display:flex;
+    justify-content:space-around;
+    height: 1.6rem;
+    font-size: .85em;
+    background-color: #FFB471;
+}
+nav ul li a {
+    text-decoration: none;
+    padding: .3em;
+}
+
+nav ul li.active a {
+    color: black;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    width: 100%;
+    background-color: #12406A;
+    color: white;
+}
 div{
     margin-top:10px;
-    
+}
+footer {
+    background-color: #12406A;
+    color: white;
+    text-align: center;
+}
+footer a{
+    color: white;
 }

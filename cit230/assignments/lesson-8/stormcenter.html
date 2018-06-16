@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/formstyle.css">
+    <title>Storm Center</title>
+</head>
+
+<body>
+    <header>
+        <h1>Sunny Dayz</h1>
+        <h3 class="subheading">"Weather You like It or Not..."</h3>
+    </header>
+
+    <nav>
+        <button onclick="toggleMenu()">
+           &#9776;
+       </button>
+        <ul id="navMenu" class="hide">
+            <li><a href="#">Home</a></li>
+            <li><a href="/cit230/assignments/lesson-6/franklin-6.html">Franklin</a></li>
+            <li><a href="#">Greenville</a></li>
+            <li><a href="#">Springfield</a></li>
+            <li  class="active"><a href="/cit230/assignments/lesson-8/stormcenter.html">Storm Center</a></li>
+            <li><a href="#">Gallery</a></li>
+        </ul>
+    </nav>
+    <h1>Report Weather</h1>
+    <form action="thankyou.html" method="get">
+        <div>
+            <label for="fullName">Full Name</label>
+            <input type="text" id="fullName" name="fullName" title="Full Name" pattern="^[a-zA-Z]+([a-zA-Z]+)*$ {5}" placeholder=" First Last" required>
+        </div>
+        <div>
+            <label for="email">Email</label>
+            <input type="text" id="email" name="email" title="Email" placeholder="myemail@email.com">
+        </div>
+        <div>
+            <label for="telephone">Phone Number</label>
+            <input type="tel" id="telephone" name="telephone" pattern="[0-9]{10,10}" placeholder="Ten Digit Code" required>
+
+        </div>
+        <div>
+            <label for="zip">Zip Code</label>
+            <input type="text" id="zip" name="zip" pattern="[0-9]{5,5}" placeholder="93004" required>
+
+        </div>
+        <div>
+            <label for="date">Date</label>
+            <input type="date" id="date" name="date" title="date" required>
+        </div>
+        <div>
+            <span>Are You in danger?</span>
+            <input type="radio" id="yes" name="danger" value="Yes">
+            <label for="yes">Yes</label>
+            <input type="radio" id="no" name="danger" value="No">
+            <label for="no"> No</label>
+            <input type="radio" id="maybe" name="danger" value="Maybe">
+            <label for="maybe">Maybe</label>
+        </div>
+        <div>
+            <label for="stormtype">Storm Type</label>
+            <input list="storm" id="stormtype" name="stormtype" placeholder="Please Select One..." required>
+            <datalist id="storm">
+            <option value="Flash Flood">
+            <option value="Hail">
+            <option value="Hurricane">
+            <option value="Tornado">
+            <option value="Thunder Storm">
+            <option value="Zombies">
+        </datalist>
+
+        </div>
+        <div>
+            <label for="stormlevel">Storm Severity</label> <span id="ratevalue">5</span>
+            <input type="range" id="stormlevel" name="stormlevel" value="5" min="1" max="10" step="1" oninput="getrate(this.value)" onchange="getrate(this.value)">
+
+        </div>
+        <div>
+            <span>Additional Information and Comments</span>
+            <br>
+            <textarea name="additionalinfo" id="additionalinfo" cols="30" rows="10"></textarea>
+        </div>
+        <div>
+            <input type="submit" value="save">
+        </div>
+    </form>
+</body>
+   <footer>
+    <section class="contact">
+        Kyle A. Foutz 208.123.4567 <br> 123 Main St. Rexburg, ID, US <br> 99999 Google Map
+    </section>
+    <section class="footer-bar">&copy;2018 | All Rights Reserved | Sunny Dayz | <span id="currentdate">Current Date Placeholder</span>
+    </section>
+    <p>&#9679; <a href="/index.html">CIT 230 | Assignments Page</a> &#9679;</p>
+</footer>
+<script src="script/slider.js"></script>
+<script src="script/hamberger.js"></script>
+<script src="script/getdate.js"></script>
+
+</html>
